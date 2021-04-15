@@ -1,5 +1,8 @@
-import { Button } from "atoms/button";
+import { GameField } from "atoms/gameField";
 
-const IndexPage = () => <Button fontSize={16}>hey</Button>;
-
+const IndexPage = () => (
+  <div>
+    <GameField />
+  </div>
+);
 export default IndexPage;
