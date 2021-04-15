@@ -14,6 +14,9 @@
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "paths": {
+      "matter-js": ["types/matter-js.d.ts"]
+    },
     "resolveJsonModule": true,
     "rootDir": "./src",
     "skipLibCheck": true,
